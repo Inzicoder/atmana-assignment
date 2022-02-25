@@ -1,0 +1,30 @@
+.container{
+    background-color: rgb(235, 225, 225);
+    margin:auto;
+    max-width:800px;
+    width: 700px;
+    height: 300px;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+.container-one{
+    flex-wrap: wrap; 
+}
+
+.jokes-box{
+    display: flex;
+    background-color: rgb(71, 65, 156);
+    width: 700px;
+    height: 180px;
+    margin: auto;
+    color: white;
+    flex-wrap: wrap;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
